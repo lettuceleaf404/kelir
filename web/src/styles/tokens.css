@@ -1,0 +1,88 @@
+/* KELIR — generated from the design system tokens.json. Do not edit by hand. */
+:root, [data-theme="light"] {
+  --ink: #24243A;
+  --coral: #FF7165;
+  --mango: #FFC857;
+  --turquoise: #38C6B5;
+  --lilac: #9484E8;
+  --cream: #FFF8ED;
+  --soft-peach: #FFE0D5;
+  --pale-mint: #DDF5EC;
+  --soft-lavender: #EBE6FF;
+  --warm-sand: #F1E5D2;
+  --deep-teal: #176F69;
+  --dark-coral: #C9473D;
+  --bg: #FFF8ED;
+  --surface: #FFFFFF;
+  --surface-2: #F1E5D2;
+  --text: #24243A;
+  --text-2: #68677A;
+  --border: #E8DFD3;
+  --primary: #C9473D;
+  --on-primary: #FFFFFF;
+  --primary-hover: #B13D34;
+  --secondary: #176F69;
+  --turquoise-hover: #2FB3A3;
+  --mango-hover: #F5B93A;
+  --highlight: #FFC857;
+  --focus: #9484E8;
+  --border-strong: #8C8A9B;
+  --success: #247A59;
+  --warning: #9A6500;
+  --error: #B83232;
+  --premium-bg: #24243A;
+  --premium-fg: #FFC857;
+  --scrim: rgba(25, 25, 39, 0.72);
+  --shadow-raised: 0 12px 32px rgba(36, 36, 58, 0.12);
+  color-scheme: light;
+}
+[data-theme="dark"] {
+  --bg: #191927;
+  --surface: #24243A;
+  --surface-2: #303047;
+  --text: #FFF8ED;
+  --text-2: #C4C0D0;
+  --border: #45445B;
+  --primary: #FF8A7E;
+  --on-primary: #24243A;
+  --primary-hover: #FF9E94;
+  --secondary: #55D5C4;
+  --highlight: #FFC857;
+  --focus: #B3A7FF;
+  --border-strong: #77758F;
+  --success: #6ED3A6;
+  --warning: #F2B544;
+  --error: #FF8F8F;
+  --premium-bg: #FFC857;
+  --premium-fg: #24243A;
+  --shadow-raised: 0 12px 32px rgba(0, 0, 0, 0.4);
+  color-scheme: dark;
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+  --container-max: 1280px;
+  --grid-cols-desktop: 12;
+  --grid-cols-tablet: 8;
+  --grid-cols-mobile: 4;
+  --bp-tablet: 600px;
+  --bp-desktop: 1024px;
+  --font-sans: "Plus Jakarta Sans Variable", "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.t-display { font-family: var(--font-sans); font-size: 48px; line-height: 56px; font-weight: 800; letter-spacing: -0.02em; }
+.t-h1 { font-family: var(--font-sans); font-size: 36px; line-height: 44px; font-weight: 800; letter-spacing: -0.015em; }
+.t-h2 { font-family: var(--font-sans); font-size: 28px; line-height: 36px; font-weight: 700; letter-spacing: -0.01em; }
+.t-h3 { font-family: var(--font-sans); font-size: 22px; line-height: 28px; font-weight: 700; }
+.t-body-l { font-family: var(--font-sans); font-size: 18px; line-height: 28px; font-weight: 400; }
+.t-body { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 400; }
+.t-caption { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 500; }
+.t-label { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 700; letter-spacing: 0.02em; }

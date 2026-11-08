@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "KELIR",
+    "slug": "kelir",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#FFF8ED",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF8ED"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.kelir.mobile"
+    },
+    "android": {
+      "package": "app.kelir.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF8ED",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-video",
+      "expo-font"
+    ],
+    "description": "KELIR, Nusantara Entertainment Hub. Satu Ruang, Sejuta Cerita."
+  }
+}
